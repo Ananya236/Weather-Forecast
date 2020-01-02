@@ -1,5 +1,3 @@
-console.log("client side js file loaded.")
-
 const weatherSearch = document.querySelector('form')
 const address = document.querySelector('input')
 const location1 = document.querySelector('#location')
