@@ -5,7 +5,7 @@ const forecast1 = document.querySelector('#forecast')
 weatherSearch.addEventListener('submit', (e) => {
     e.preventDefault()
     
-    const url = 'http://localhost:3000/weather?address=' + address.value
+    const url = '/weather?address=' + address.value
     location1.textContent = 'loading.....'
     forecast1.textContent = ''
 
